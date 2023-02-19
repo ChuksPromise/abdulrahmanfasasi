@@ -255,8 +255,8 @@ a:hover {
 
 /*------/ Ico Circle /------*/
 .ico-circle {
-  height: 100px;
-  width: 100px;
+  height: 200px;
+  width: 200px;
   font-size: 2rem;
   border-radius: 50%;
   line-height: 1.55;
@@ -893,9 +893,15 @@ a:hover {
   justify-content: center;
 }
 
-.service-box .ico-circle i {
+/* .service-box .ico-circle i {
   line-height: 0;
   font-size: 40px;
+} */
+
+.service-box .ico-circle img {
+    width: 100%;
+    border-radius: 50%;
+    height: inherit
 }
 
 .service-box .s-title {
